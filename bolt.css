@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    font-family: Poppins, sans-serif;
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    /* border: solid darkblue; */
+    display: flex;
+    align-items: center;
+    gap: 60%;
+    position: sticky;
+    top: 0;
+}
+.navbar> img{
+    width: 5.5%;
+    height: 40px;
+    margin-left: 100px;
+}
+.txt{
+    width: 260px;
+    height: 50px;
+    /* border: solid red; */
+    display: flex;
+    gap: 15%;
+    align-items: center;
+
+}
+.txt> button{
+    width: 33%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.txt> i{
+    font-size: 30px;
+}
+.hero{
+    width: 100%;
+    height: 110vh;
+    background-image: url(Images/bolt\ hero\ pic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.634);
+    color: whitesmoke;
+    position: relative;
+}
+.text{
+    width: 41%;
+    height: 360px;
+    /* border: solid lawngreen; */
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.text> h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.text> p{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.text>button{
+    width: 25%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(62, 165, 107);
+} 
+.text> button:hover{
+    cursor: pointer;
+    background-color: seagreen;
+}
+
+
+
+.hero2{
+    width: 100%;
+    height: 970px;
+    /* border: solid lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+.hero2> h2{
+    font-size: 45px;
+    color: rgb(10, 10, 10);
+    padding-bottom: 15px;
+}
+.opt{
+    width: 65%;
+    height: 38px;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+.opt> button{
+    padding: 5px 20px;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    color: rgb(127, 125, 125);
+    background-color: transparent;
+}
+.opt> button:hover{
+    cursor: pointer;
+    background-color: rgb(226, 224, 224);
+    border: 2px solid lightgrey;
+}
+.car{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    gap: 8%;
+    /* border: solid rebeccapurple; */
+    margin-top: 3%;
+}
+.car-img{
+    width: 55%;
+    height: 65%;
+    /* border: solid green; */
+    border-radius: 10px;
+    margin: 3%;
+}
+.car-img> img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.cart{
+    width: 45%;
+    height: 75%;
+    /* border: solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.cart> h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.num{
+    width: 100%;
+    height: 120px;
+    /* border: solid hotpink; */
+    display: flex;
+    gap: 7%;
+}
+.num> i{
+    color: rgb(52, 169, 103);
+    /* color: white; */
+    font-size: 22px;
+}
+.riff>p{
+    font-size: 15px;
+    color: rgb(96, 94, 94);
+}
+.cart> button{
+    width: 28%;
+    height: 12%;
+    border: none;
+    border-radius: 20px;
+}
+.cart> button:hover{
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+
+
+.hero3{
+    width: 100%;
+    height: 800px;
+    /* border: solid palegreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero3> h2{
+    font-size: 45px;
+    color: rgb(10, 10, 10);
+    padding-bottom: 10px;
+}
+.hero3> p{
+    color: rgb(96, 94, 94);
+}
+.drive{
+    width: 90%;
+    height: 67%;
+    /* border: solid red; */
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: 20px;
+}
+.content{
+    width: 380px;
+    height: 230px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+.content>img{
+    margin-top: 70px;
+    
+}
+.trip{
+    width: 65%;
+    height: 100px;
+    /* border: solid  black; */
+}
+
+
+.hero4{
+    width: 100%;
+    height: 700px;
+    /* border: solid lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 2%;
+}
+.cart2{
+    width: 35%;
+    height: 85%;
+    /* border: solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.cart2> h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.cart2>p{
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+    padding-bottom: 15px;
+}
+.num2{
+    width: 100%;
+    height: 120px;
+    /* border: solid hotpink; */
+    display: flex;
+    gap: 7%;
+}
+.num2> i{
+    color: rgb(52, 169, 103);
+    /* color: white; */
+    font-size: 22px;
+}
+.riff2>p{
+    font-size: 15px;
+    color: rgb(96, 94, 94);
+}
+.cart2> button{
+    width: 28%;
+    height: 12%;
+    border: none;
+    border-radius: 20px;
+}
+.cart2> button:hover{
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+.peeps{
+    width: 50%;
+    height: 75%;
+    /* border: solid green; */
+    border-radius: 10px;
+    margin: 3%;
+}
+.peeps> img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.hero5{
+    width: 100%;
+    height: 700px;
+    /* border: solid lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 5%;
+}
+.build{
+    width: 40%;
+    height: 65%;
+    /* border: solid green; */
+    border-radius: 10px;
+    margin: 3%;
+}
+.build> img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.cart3{
+    width: 32%;
+    height: 75%;
+    /* border: solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.cart3> h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.cart3>p{
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+    padding-bottom: 20px;
+}
+.num3{
+    width: 100%;
+    height: 80px;
+    /* border: solid hotpink; */
+    display: flex;
+    gap: 7%;
+}
+.num3> i{
+    color: rgb(52, 169, 103);
+    /* color: white; */
+    font-size: 22px;
+}
+.riff3>p{
+    padding-top: 5px;
+    font-size: 15px;
+    color: rgb(96, 94, 94);
+}
+
+
+
+.hero6{
+    width: 100%;
+    height: 750px;
+    /* border: solid lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    gap: 5%;
+}
+.hero6>h2{
+    font-size: 37px;
+}
+.request{
+    width: 83%;
+    height: 550px;
+    background-color: seagreen;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 4%;
+}
+.sub{
+    width: 40%;
+    height: 300px;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 13%;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.sub> button{
+        width: 115px;
+        height: 50px;
+        border: none;
+        font-size: 16px;
+        border-radius: 25px;
+        color: black;
+        background-color: white;
+}
+.sub>h2{
+    font-size: 35px;
+}
+.sub>h5{
+    font-size: 19px;
+}
+.request> img{
+    width: 49%;
+    height: 550px;
+    /* border: solid honeydew; */
+}
+
+
+.hero7{
+    width: 100%;
+    height: 500px;
+    /* border: solid lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    gap: 5%;
+}
+.nav1{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    gap: 50%;
+    align-items: center;
+}
+.nav1>h2{
+    font-size: 37px;
+}
+.nav1>h4{
+    font-size: 23px;
+}
+/* .nav1>h4> i{
+    font-weight: 600;
+    font-size: 20px;
+}  */
+.news{
+    width: 80%;
+    height: 300px;
+    /* border: solid gray; */
+    display: flex;
+    gap: 1%;
+}
+.over{
+    width: 34%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.over> img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.over> h5{
+    font-size: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.over> p{
+    font-size: 12px;
+    color: rgb(118, 118, 118);
+}
+
+
+.hero8{
+    width: 100%;
+    height: 500px;
+    /* border: solid lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.arry{
+    width: 20%;
+    height: 80%;
+    /* border: solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.arry> img{
+    width: 80px;
+    height: 47px;
+}
+.arry> a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+.contact{
+    width: 100%;
+    height: 250px;
+    /* border: solid lightblue; */
+}
+.contact1{
+    width: 97%;
+    height: 80px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27%;
+}
+.icon{
+    width: 27%;
+    height: 50px;
+    /* border: solid ; */
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.icon> i{
+    padding: 5px 8px;
+    background-color: rgb(206, 204, 204);
+    border-radius: 50%;
+}
+.contact2{
+    width: 40%;
+    height: 50px;
+    /* border: solid ; */
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.contact2> button{
+    width: 30%;
+    height: 75%;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.contact2> button:hover{
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+.last{
+    width: 100%;
+    height: 30%;
+    /* border: solid; */
+    margin-top: 1%;
+    display: flex;
+    gap: 37%;
+    align-items: center;
+}
+.last> p{
+    color: rgb(139, 138, 138);
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.last2{
+    width: 42.5%;
+    height: 40px;
+    /* border: solid; */
+    display: flex;
+    gap: 4%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.last2> a{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+    font-size: 15px;
+}
+.last2> a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
