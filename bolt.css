@@ -62,7 +62,7 @@
 }
 .text{
     width: 41%;
-    height: 360px;
+    height: 380px;
     /* border: solid lawngreen; */
     margin-left: 5%;
     margin-top: 10%;
@@ -93,7 +93,7 @@
 
 .hero2{
     width: 100%;
-    height: 970px;
+    height: 800px;
     /* border: solid lightcoral; */
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@
 }
 .hero2> h2{
     font-size: 45px;
-    color: rgb(10, 10, 10);
+    color: rgb(36, 36, 61);
     padding-bottom: 15px;
 }
 .opt{
@@ -126,7 +126,7 @@
     border: 2px solid lightgrey;
 }
 .car{
-    width: 85%;
+    width: 90%;
     height: 80%;
     display: flex;
     gap: 8%;
@@ -135,7 +135,7 @@
 }
 .car-img{
     width: 55%;
-    height: 65%;
+    height: 75%;
     /* border: solid green; */
     border-radius: 10px;
     margin: 3%;
@@ -147,7 +147,7 @@
 }
 .cart{
     width: 45%;
-    height: 75%;
+    height: 90%;
     /* border: solid orange; */
     display: flex;
     flex-direction: column;
@@ -156,6 +156,7 @@
 .cart> h2{
     font-size: 30px;
     padding-bottom: 15px;
+    color: rgb(48, 48, 54);
 }
 .num{
     width: 100%;
@@ -168,6 +169,9 @@
     color: rgb(52, 169, 103);
     /* color: white; */
     font-size: 22px;
+}
+.riff> h3{
+    color: rgb(48, 48, 54);
 }
 .riff>p{
     font-size: 15px;
@@ -187,7 +191,7 @@
 
 .hero3{
     width: 100%;
-    height: 800px;
+    height: 900px;
     /* border: solid palegreen; */
     display: flex;
     flex-direction: column;
@@ -196,17 +200,18 @@
 }
 .hero3> h2{
     font-size: 45px;
-    color: rgb(10, 10, 10);
+    color: rgb(48, 48, 54);
     padding-bottom: 10px;
 }
 .hero3> p{
     color: rgb(96, 94, 94);
 }
 .drive{
-    width: 90%;
+    width: 98%;
     height: 67%;
     /* border: solid red; */
     margin-top: 4%;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, max-content);
     grid-gap: 20px;
@@ -229,32 +234,71 @@
     height: 100px;
     /* border: solid  black; */
 }
+.trip> h3{
+    color: rgb(48, 48, 54);
+}
+#img1{
+    width: 50%; 
+    height: 42%; 
+    margin-top: 125px;
+    border-bottom-right-radius: 15px;
+}
+#img2{
+    width: 40%; 
+    height: 55%; 
+    margin-top: 27%; 
+    border-bottom-right-radius: 15px;
+}
+#img3{
+    width: 45%; 
+    height: 60%; 
+    margin-top: 24%; 
+    border-bottom-right-radius: 15px;
+}
+#img5{
+    width: 45%; 
+    height: 60%; 
+    margin-top: 24%;
+}
+#img6{
+    margin-top: 35%; 
+    width: 50%; 
+    height: 42%; 
+    border-bottom-right-radius: 15px;
+}
+
 
 
 .hero4{
     width: 100%;
-    height: 700px;
+    height: 750px;
     /* border: solid lightcoral; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    gap: 2%;
+    padding-left: 50px;
+    gap: 4%;
 }
 .cart2{
-    width: 35%;
-    height: 85%;
+    width: 39%;
+    height: 100%;
     /* border: solid orange; */
     display: flex;
     flex-direction: column;
     gap: 2%;
 }
-.cart2> h2{
-    font-size: 30px;
-    padding-bottom: 15px;
+.city{
+    width: 100%;
+    height: 190px;
+    /* border: solid navy; */
 }
-.cart2>p{
-    font-size: 18px;
+.city> h2{
+    font-size: 30px;
+    padding-bottom: 12px;
+    color: rgb(48, 48, 54);
+}
+.city> p{
+    font-size: 19px;
     color: rgb(85, 84, 84);
     padding-bottom: 15px;
 }
@@ -265,18 +309,20 @@
     display: flex;
     gap: 7%;
 }
+.num2{
+    color: rgb(48, 48, 54);
+}
 .num2> i{
     color: rgb(52, 169, 103);
-    /* color: white; */
     font-size: 22px;
 }
-.riff2>p{
+.riff2> p{
     font-size: 15px;
     color: rgb(96, 94, 94);
 }
 .cart2> button{
     width: 28%;
-    height: 12%;
+    height: 6%;
     border: none;
     border-radius: 20px;
 }
@@ -285,34 +331,35 @@
     background-color: rgb(228, 228, 228);
 }
 .peeps{
-    width: 50%;
-    height: 75%;
+    width: 43%;
+    height: 85%;
     /* border: solid green; */
     border-radius: 10px;
     margin: 3%;
 }
 .peeps> img{
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    height: 65%;
+    border-radius: 13px;
+    margin-top: 14%;
 }
 
 .hero5{
     width: 100%;
-    height: 700px;
+    height: 600px;
     /* border: solid lightcoral; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    gap: 5%;
+    /* padding-left: 20px; */
+    gap: 8%;
 }
 .build{
-    width: 40%;
-    height: 65%;
+    width: 41.5%;
+    height: 70%;
     /* border: solid green; */
     border-radius: 10px;
-    margin: 3%;
+    margin: 1%;
 }
 .build> img{
     width: 100%;
@@ -320,28 +367,29 @@
     border-radius: 10px;
 }
 .cart3{
-    width: 32%;
-    height: 75%;
+    width: 35%;
+    height: 90%;
     /* border: solid orange; */
     display: flex;
     flex-direction: column;
     gap: 2%;
 }
-.cart3> h2{
+.propos> h2{
     font-size: 30px;
     padding-bottom: 15px;
+    color: rgb(48, 48, 54);
 }
 .cart3>p{
-    font-size: 18px;
+    font-size: 19px;
     color: rgb(85, 84, 84);
     padding-bottom: 20px;
 }
 .num3{
     width: 100%;
-    height: 80px;
+    height: 85px;
     /* border: solid hotpink; */
     display: flex;
-    gap: 7%;
+    gap: 9%;
 }
 .num3> i{
     color: rgb(52, 169, 103);
@@ -392,7 +440,7 @@
     margin-top: 7%;
 }
 .sub> button{
-        width: 115px;
+        width: 135px;
         height: 50px;
         border: none;
         font-size: 16px;
@@ -409,7 +457,7 @@
 .request> img{
     width: 49%;
     height: 550px;
-    /* border: solid honeydew; */
+    /* border: solid lightcoral; */
 }
 
 
@@ -433,14 +481,12 @@
 }
 .nav1>h2{
     font-size: 37px;
+    color: rgb(48, 48, 54);
 }
 .nav1>h4{
     font-size: 23px;
+    color: rgb(48, 48, 54);
 }
-/* .nav1>h4> i{
-    font-weight: 600;
-    font-size: 20px;
-}  */
 .news{
     width: 80%;
     height: 300px;
@@ -451,6 +497,7 @@
 .over{
     width: 34%;
     height: 100%;
+    /* border: solid magenta; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -499,6 +546,9 @@
     width: 100%;
     height: 250px;
     /* border: solid lightblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contact1{
     width: 97%;
@@ -512,7 +562,7 @@
 .icon{
     width: 27%;
     height: 50px;
-    /* border: solid ; */
+    /* border: solid honeydew; */
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -526,7 +576,7 @@
 .contact2{
     width: 40%;
     height: 50px;
-    /* border: solid ; */
+    /* border: solid red; */
     display: flex;
     gap: 3%;
     justify-content: center;
@@ -546,7 +596,7 @@
 .last{
     width: 100%;
     height: 30%;
-    /* border: solid; */
+    /* border: solid lawngreen; */
     margin-top: 1%;
     display: flex;
     gap: 37%;
@@ -556,15 +606,16 @@
     color: rgb(139, 138, 138);
     font-size: 15px;
     padding-left: 50px;
+    /* border: saddlebrown solid; */
 }
 
 .last2{
     width: 42.5%;
     height: 40px;
-    /* border: solid; */
+    /* border: solid teal; */
     display: flex;
     gap: 4%;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 .last2> a{
@@ -576,3 +627,448 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.close{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        gap: 55%;
+    }
+    .navbar> img{
+        width: 7%;
+    }
+    .hero{
+        height: 160vh;
+    }
+    .text{
+        width: 50%;
+    }
+    .content{
+        width: 320px;
+
+    }
+    .last{
+        gap: 34%;
+    }
+    .nav1{
+        gap: 45%;
+    }
+    .drive{
+        grid-gap: 15px;
+    }
+    .city> p{
+        font-size: 15px;
+     }
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .contact1{
+        gap: 23%;
+      }
+      .contact2{
+        width: 45%;
+      }
+      .contact2> button{
+        height: 70%;
+        font-size: 9px;
+      }
+      .last{
+        gap: 26%;
+      }
+      .last> p{
+        padding-left: 25px;
+      }
+      .last2{
+        width: 47%;
+        gap: 3%;
+      }
+      .last2> a{
+        font-size: 13px;
+      }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .text{
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 3.5%;
+    }
+    .text>h1{
+        font-size: 40px;
+    }
+    .text> p{
+        font-size: 17px;
+    }
+    .text> button{
+        width: 16%;
+        height: 55px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    .hero2{
+        height: 1450px;
+        justify-content: left;
+    }
+     .car{
+        width: 100%;
+        height: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+     }
+     .car-img{
+        width: 95%;
+        height: 60%;
+     }
+     .cart{
+        width: 95%;
+     }
+     .cart> h2{
+        font-size: 23px;
+     }
+     .num{
+        height: 70px;
+        gap: 2%;
+     }
+     .riff> h3{
+         font-size: 18px;
+     }
+     .cart> button{
+        width: 16%;
+        border-radius: 27px;
+     }
+     .drive{
+        height: 83%;
+        grid-template-columns: repeat(2, max-content);
+     }
+     .content{
+         width: 430px;
+     }
+     #img1{
+        height: 25%;
+        width: 22%;
+        margin-top: 165px;
+        margin-left: 13%;
+     }
+     #img2{
+        width: 22%;
+        height: 36%;
+        margin-top: 33.5%;
+        margin-left: 13%;
+     }
+     #img3{
+        width: 25%;
+        height: 45%;
+        margin-top: 28.5%;
+        margin-left: 10%;
+     }
+     #img4{
+        width: 20%;
+        height: 40%;
+        margin-top: 31.5%;
+        margin-left: 15%;
+     }
+     #img5{
+        width: 27%;
+        height: 42%;
+        margin-top: 29.5%;
+        margin-left: 8%;
+     }
+     #img6{
+        width: 22%;
+        height: 25%;
+        margin-top: 39.5%;
+        margin-left: 13%;
+     }
+     .city{
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 10px;
+     }
+     .peeps{
+        width: 100%;
+        height: 50%;
+        margin-top: -110%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .peeps> img{
+        width: 95%;
+        height: 75%;
+        margin-top: 0%;
+     }
+     .cart2{
+        width: 100%;
+        height: 50%;
+         padding-top: 34%;
+     }
+     .city> h2{
+        font-size: 28px;
+     }
+     .city> p{
+        font-size: 20px;
+     }
+     .hero4{
+        height: 1300px;
+        flex-direction: column;
+        gap: 0%;
+     }
+     .num2{
+        width: 99%;
+        gap: 4%;
+        font-size: 15px;
+     }
+     .cart2> button{
+        width: 15%;
+        height: 22%;
+        border-radius: 25px;
+        margin-top: 8px;
+        margin-left: 5%;
+     }
+     .hero5{
+        height: 1250px;
+        flex-direction: column;
+     }
+     .build{
+        width: 98%;
+        height: 56%;
+     }
+     .cart3{
+        width: 97%;
+     }
+     .cart3> p{
+        padding-bottom: 25px;
+     }
+     .num3{
+        height: 60px;
+        gap: 3%;
+     }
+     .request{
+        height: 800px;
+        flex-direction: column;
+     }
+     .sub{
+        width: 85%;
+        height: 300px;
+     }
+     .hero6{
+        height: 1100px;
+     }
+     .sub> button{
+         width: 130px;
+         height: 55px;
+         border-radius: 30px;
+     }
+     .request> img{
+        width: 100%;
+        height: 570px;
+     }
+     .nav1{
+        gap: 37%;
+     }
+     .nav1> h2{
+        font-size: 33px;
+     }
+     .hero7{
+        height: 600px;
+     }
+     .news{
+        width: 95%;
+        height: 350px;
+     }
+     .over{
+        width: 40%;
+        height: 95%;
+     }
+     .hero8{
+        gap: 1%;
+     }
+     .news{
+        height: 280px;
+     }
+      .over> img{
+        height: 72%;
+      }
+      .request{
+        gap: 0%;
+      }
+      .sub{
+        height: 22%;
+        gap: 10%;
+        margin-left: 4%;
+      }
+      .request> img{
+        height: 71%;
+      }
+      .cart2{
+         padding-top: 40%;
+      }
+     }
+
+
+
+
+
+     @media screen and (max-width: 910px) {
+        .navbar{
+            gap: 47%;
+        }
+        .navbar> img{
+            width: 7%;
+            height: 37px;
+        }
+        .content{
+            width: 400px;
+        }
+         #img2{
+            margin-top: 140px;
+         }
+         #img3{
+            margin-top: 120px;
+         }
+         #img4{
+            width: 22%;
+            margin-top: 132px;
+         }
+         #img5{
+            margin-top: 125px;
+         }
+         #img6{
+            margin-top: 165px;
+         }
+
+     } 
+
+
+
+
+
+
+     @media screen and (max-width: 890px) {
+        .cart2{
+            padding-top: 375px;
+         }
+         .city{
+            width: 90%;
+         }
+     }
+
+
+
+
+     @media screen and (max-width: 825px) {
+        .content{
+            width: 350px;
+        }
+        #img1{
+            width: 80px;
+        }
+        #img2{
+            width: 80px;
+         }
+        #img3{
+            width: 90px;
+            height: 80px;
+            margin-top: 140px;
+        }
+        #img4{
+            width: 80px;
+        }
+         #img5{
+            margin-top: 145px;
+            height: 70px;
+        }
+         #img6{
+            width: 80px;
+            margin-top: 165px;
+        }
+        .cart2{
+           padding-top: 210px;
+        }
+        .cart2> button{
+            width: 16%;
+            height: 13%;
+        }
+        .peeps{
+            margin-top: -140%;
+        }
+        .last{
+            flex-direction: column;
+        }
+        .contact1{
+            flex-direction: column;
+            height: 150px;
+        }
+        .contact2{
+            width: 80%;
+            height: 80px
+        }
+        .contact2> button{
+            height: 80%;
+            border-radius: 30px;
+            font-size: 13px;
+        }
+        .icon{
+            width: 32%;
+        }
+        .icon> i{
+            padding: 5px 10px;
+        }
+        .news{
+            height: 270px;
+        }
+        .nav1{
+            gap: 30%;
+        }
+        .nav1> h4{
+            display: none;
+        }
+        .hero8{
+            width: 500px;
+            height: 800px;
+            padding-left: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, max-content);
+            align-items: left;
+            grid-gap: 50px;
+        }
+        .hero6{
+            padding-top: 0%;
+        }
+        .arry{
+            width: 125%;
+            height: 400px;   
+        }
+        .sub> h2{
+            font-size: 32px;
+        }
+        .last2{
+            width: 85%;
+        }
+     }
+
+
+
+
+     
+/* h1: color: rgb(48, 48, 54); */
